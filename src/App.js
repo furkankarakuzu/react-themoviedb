@@ -6,8 +6,6 @@ import Footer from "./components/Footer";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import links from "./data/links";
 
-
-
 export default function App() {
   const routeMaps = links.map((item, index) => (
     <Route
