@@ -1,0 +1,10 @@
+h1, p {
+  font-family: Lato;
+}
+.satir{
+  line-height:25px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow:hidden;
+}
